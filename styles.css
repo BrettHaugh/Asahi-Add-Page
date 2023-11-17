@@ -1,0 +1,120 @@
+@font-face {
+    font-family: Japanese_main;
+    src: url(fonts/Niagato.ttf);
+}
+
+@font-face {
+    font-family: heath notted;
+    src: url(fonts/Heath\ Notted\ Font.otf);
+}
+
+* {
+    background-color: black;
+    text-align: center;
+}
+
+.title{
+    font-family: Japanese_main;
+    font-size: xxx-large;
+    color: white;
+}
+
+.tagline {
+    color: red;
+    font-size: x-large;
+}
+
+#bio {
+    font-family: 'Montserrat', sans-serif;
+    font-size: x-large;
+    color: wheat;
+}
+
+a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: x-large;
+    text-decoration: none;
+    color: tomato
+}
+
+.banner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 70%;
+}
+
+#image-1 {
+    height: 80px;
+    width: 120px;
+    padding: 10px;
+    float: left;
+    display: block;
+    background-color: white;
+}
+
+button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    border-radius: 25px;
+    background-color: tomato;
+    padding: 12px 28px;
+    color: black;
+    transition-duration: 0.5s;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+#wrapper {
+    color: tomato;
+    background-color: lightgrey;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+}
+
+iframe {
+    width: 1024px;
+    height: 720px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #AEB6BF;
+}
+
+footer {
+    display: block;
+    float: right;
+}
+
+footer a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: small;
+    color: white;
+}
